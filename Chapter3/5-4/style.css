@@ -1,0 +1,7 @@
+@charset "UTF-8";
+p {
+  line-height: 1.7;
+}
+div p {
+  line-height: 3.0;
+}
