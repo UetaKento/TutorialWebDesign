@@ -1,0 +1,13 @@
+@charset "UTF-8";
+a {
+  border-width: 1px;
+  border-style: solid;
+}
+p {
+  border-width: thick;
+  border-style: solid;
+}
+div {
+  border-width: 1px 4px 8px 12px;
+  border-style: solid;
+}
