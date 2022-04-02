@@ -1,0 +1,7 @@
+@charset "UTF-8";
+p {
+  text-align: center;
+}
+div p {
+  text-align: justify;;
+}

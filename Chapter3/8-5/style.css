@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body {
+  background-image: url(Images/bg-airplane.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
