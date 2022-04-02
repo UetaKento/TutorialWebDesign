@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div p {
+  background: #70a2dc;
+  width: 100pw;
+  height: 100vh;
+}
+a {
+  background: #70a2dc;
+  width: 500px;
+  height: 300px;
+
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+ul  li {
+  list-style-type: square;
+  list-style-position: outside;
+  background-color: #0bd;
+
+}
+ol  li {
+  list-style-type: hiragana;
+  list-style-position: inside;
+  background-color: #0bf;
+}

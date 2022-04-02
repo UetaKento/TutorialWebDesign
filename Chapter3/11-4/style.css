@@ -1,0 +1,11 @@
+@charset "UTF-8";
+a {
+  border-width: 1px;
+  border-style: solid;
+}
+p {
+  border-bottom: 2px solid #0bd;
+}
+div {
+  border: 5px dotted tomato;
+}
