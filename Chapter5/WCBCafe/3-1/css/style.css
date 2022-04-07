@@ -73,11 +73,11 @@ img {
   background-size: cover;
   background-position: center top;
 }
-#home {
-  background-image: url(../../images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
-  background-blend-mode: luminosity;
-  min-height: 100vh;
+#news {
+  background-image: url(../../images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
 }
-#home .page-title {
-  text-transform: none;
+#news .page-title {
+  text-align: center;
 }
