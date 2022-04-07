@@ -43,3 +43,41 @@ img {
   margin: 0 auto;
   padding: 0 4%;
 }
+.home-content{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 5rem;
+    font-family: 'Grape Nuts', cursive;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+    margin-top: 10%;
+}
+.button:hover {
+    background: #0090aa;
+}
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+#news {
+  background-image: url(../../images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#news .page-title {
+  text-align: center;
+}
