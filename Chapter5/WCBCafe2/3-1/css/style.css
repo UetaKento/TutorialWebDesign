@@ -73,11 +73,18 @@ img {
   background-size: cover;
   background-position: center top;
 }
+#home {
+  background-image: url(../../images/main-bg.jpg);
+  min-height: 100vh;
+}
+#home .page-title {
+  text-transform: none;
+}
 #news {
-  background-image: url(../../images/news-bg.jpg);
-  height: 270px;
-  margin-bottom: 40px;
+    background-image: url(../../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
 }
 #news .page-title {
-  text-align: center;
+    text-align: center;
 }

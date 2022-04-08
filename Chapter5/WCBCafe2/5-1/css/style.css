@@ -73,11 +73,38 @@ img {
   background-size: cover;
   background-position: center top;
 }
+#home {
+  background-image: url(../../images/main-bg.jpg);
+  min-height: 100vh;
+}
+#home .page-title {
+  text-transform: none;
+}
 #news {
-  background-image: url(../../images/news-bg.jpg);
-  height: 270px;
-  margin-bottom: 40px;
+    background-image: url(../../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
 }
 #news .page-title {
-  text-align: center;
+    text-align: center;
+}
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+article {
+    width: 74%;
+}
+aside {
+    width: 22%;
+}
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
