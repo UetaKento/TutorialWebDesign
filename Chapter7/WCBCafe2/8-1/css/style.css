@@ -249,7 +249,18 @@ aside p {
   textarea {
     max-width: 100%;
   }
-
+  #location .wrapper,
+  #sns .wrapper {
+    flex-direction: column;
+  }
+  .location-info,
+  .location-map,
+  .sns-box {
+    width: 100%
+  }
+  .sns-box {
+    margin-bottom: 30px;
+  }
 }
 #menu {
   background-image: url(../../images/menu-bg.jpg);
@@ -334,4 +345,18 @@ input[type="submit"] {
 }
 iframe {
   width: 100%;
+}
+#sns {
+  background: #FAF7F0;
+  padding: 4% 0;
+}
+#sns .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#sns .sub-title {
+  margin-bottom: 30px;
+}
+.sns-box {
+  width: 30%;
 }
